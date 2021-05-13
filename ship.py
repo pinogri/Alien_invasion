@@ -11,7 +11,7 @@ class Ship():
         self.screen_rect = ai_game.screen.get_rect()
 
         # Download image of ship and get rectangle
-        self.image = pygame.image.load('images/ship.bmp')
+        self.image = pygame.image.load('C:/Users/Stanislav_Sorokin1/PycharmProjects/Alien_invasion/images/ship.bmp')
         self.rect = self.image.get_rect()
         # Each new ship initialize at the bottom of the screen
         self.rect.midbottom = self.screen_rect.midbottom
